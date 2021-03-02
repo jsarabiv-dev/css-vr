@@ -1,0 +1,33 @@
+@font-face {
+    font-family: LibreBaskerville-Italic;
+    src: url(fonts/LibreBaskerville-Italic.ttf);
+}
+
+body{
+    /*background: red;*/
+}
+h1{
+    font-family: LibreBaskerville-Italic, arial,sans-serif;
+
+ /* Colores */
+    /* Colores del sistema */
+    /*color: mediumslateblue;*/
+
+    /* Colores Hex */
+    /*color: #eeeeee;*/
+
+    /* Colores RGB - Red Green Blue */
+    /*color: rgb(138, 138, 138);*/
+
+    /* Colores RGBA - RGB con trasparencia */
+    /* color: rgba(138, 138, 138, 0.5);  mitad de trasparencia */
+}
+h3{
+  font-size: 25px;
+}
+
+p{
+    font-weight: 900; /*hanchura del codigo*/
+    font-style: italic;
+    text-transform: uppercase; /*Transformar a mayusculas */
+}

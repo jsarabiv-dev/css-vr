@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.caja1, /*Compartir css en 2 clases*/
+.caja2{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    margin: 15px 15px 15px 15px;
+         /* top right buttom left*/
+    padding: 20px;
+    color: black;
+    border: 10px solid red;
+    float: left; /* Se puede aplicar solo a la que tienen display: block */
+}
+/*
+.caja2{
+
+}*/
+
+.caja1, .caja2 p {
+    font-weight: bold;
+    text-align: center;
+    line-height: 230px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}

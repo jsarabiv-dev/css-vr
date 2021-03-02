@@ -1,0 +1,32 @@
+body {
+    background-color: #ccc;
+/*    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    !*background-attachment: fixed; dejar imagen fija (el fondo no se mueve)*!
+    !*background-position: left bottom; el background se crea a partir de la izquirea de abajo de la imagen *!
+    !*background-position: bottom;*!
+    color: white;*/
+
+}
+
+#caja{
+    /*background-color: red;*/
+    border: 5px solid black;
+    padding: 10px;
+    color: white;
+    height: 1200px;
+    font-weight: 900; /* hanchura del codigo */
+    font-style: italic;
+    /*text-align: center; centrar, funciona igual en las imagenes */
+    /*text-align: justify; justificar el texto */
+    text-align: justify;
+    line-height: 50px; /* la altura de la linea (distancia entre lineas de texto)*/
+    text-decoration: line-through;
+    text-indent: 15px; /* identacion del parrafo*/
+    word-spacing: 10px; /* Seperacion entre palabras*/
+    letter-spacing: 5px; /* Seperacion entre letras*/
+
+
+}
+
